@@ -3,7 +3,9 @@ let axios = require('axios')
 let fs = require('fs')
 let path = require('path')
 
-
+// 编写发表情网页的爬虫
+// 1、先进行网页html分析
+// 2、找到分类列表
 
 function face () {
   let url = "https://www.fabiaoqing.com/bqb/lists"

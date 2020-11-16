@@ -1,5 +1,7 @@
 let axios = require('axios')
 
+
+// 设置代理访问
 axios.get('https://www.fabiaoqing.com/',
   {
     proxy: {
